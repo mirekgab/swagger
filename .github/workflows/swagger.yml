@@ -3,6 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [ "main" ]
+    paths: 
+      - "restapi/openapi.json"
   workflow_dispatch:
 
 jobs:
